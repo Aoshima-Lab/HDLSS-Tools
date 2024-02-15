@@ -1,5 +1,5 @@
 # **Cross-Data-Matrix Methodology**
-   [[R-code](CDM.r)] [[Manual](CDM.pdf)]
+   [[R](CDM.r)] [[Python](CDM.py)] [[Manual](CDM.pdf)]
 
    The "Cross-Data-Matrix (CDM) Methodology" gives estimators of the eigenvalues, eigenvectors, and principal component scores.
    
@@ -12,7 +12,7 @@
 # CDM(X, r, random); d (≥ 2) by n (≥ 4) matrix X as X = (x1, ..., xn),
 # where d is the dimension and n is the sample size.
 # r in [2, min{d, n/2 − 1}] : (the number of principal components to be computed).
-# random: 'True' or 'False' (default: 'False')
+# random(R), rand(Python): 'True' or 'False' (default: 'False')
 ```
 
 ### Output

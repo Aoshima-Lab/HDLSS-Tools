@@ -1,5 +1,5 @@
 # **Noise Reduction Methodology**
-   [[R-code](NRM.r)] [[Manual](NRM.pdf)]
+   [[R](NRM.r)] [[Python](NRM.py)] [[Manual](NRM.pdf)]
    
    The "Noise-Reduction Methodology (NRM)" gives estimators of the eigenvalues, eigenvectors, and principal component scores.
    

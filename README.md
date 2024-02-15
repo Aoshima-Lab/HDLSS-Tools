@@ -1,9 +1,9 @@
 # Tools for HDLSS data <!-- omit in toc -->
-We have published [**[R-code and manuals](#r-tools)**] for an analytical method developed and proposed in our laboratory for **High-Dimension, Low-Sample-Size (HDLSS) data**. Please read the following notes on usage and use it only if you agree. For more details on the analytical method, please refer to the relevant paper.
+We have published [**[Tools](#tools)**] for analytical methods developed in our laboratory for **High-Dimension, Low-Sample-Size (HDLSS) data**. Please read [**[License](#license)**] and use tools only if you agree. For more details on the analytical method, please refer to relevant manuals and papers.
 
 # Contents <!-- omit in toc -->
-- [Instruction](#instruction)
-- [R-Tools](#r-tools)
+- [Package Installation](#package-installation)
+- [Tools](#tools)
   - [Principal Component Analysis](#principal-component-analysis)
     - [**Noise-Reduction Methodology**](#noise-reduction-methodology)
     - [**Cross-Data-Matrix Methodology**](#cross-data-matrix-methodology)
@@ -14,21 +14,17 @@ We have published [**[R-code and manuals](#r-tools)**] for an analytical method 
   - [Covariance Structures Test](#covariance-structures-test)
 - [License](#license)
 
-# Instruction
-1. Prior to using this R-code, install the statistical software "R". Please refer to [[HERE](https://www.r-project.org/)] on the installation of "R".
-1. Click each method name in the "[[R-Tools](#r-tools)]" section above.
-
-## Installation<!-- omit in toc -->
+# Package Installation
 ### From GitHub<!-- omit in toc -->
-Use the following command in the terminal to install the package locally.
+Use the following command in the terminal to install packages locally.
 ```console
 git clone https://github.com/Aoshima-Lab/HDLSS-Tools.git
 ```
 
-# R-Tools
+# Tools
 ## Principal Component Analysis
 ### **[Noise-Reduction Methodology](NRM/)**
-   [[R-code](NRM/NRM.r)] [[Manual](NRM/NRM.pdf)]
+   [[R](NRM/NRM.r)] [[Python](NRM/NRM.py)] [[Manual](NRM/NRM.pdf)]
 
    The "Noise-Reduction Methodology (NRM)" gives estimators of the eigenvalues, eigenvectors, and principal component scores.
 
@@ -36,7 +32,7 @@ git clone https://github.com/Aoshima-Lab/HDLSS-Tools.git
       DOI: [[10.1016/j.jmva.2011.09.002](https://www.sciencedirect.com/science/article/pii/S0047259X11001904)]
 
 ### **[Cross-Data-Matrix Methodology](CDM/)**
-   [[R-code](CDM/CDM.r)] [[Manual](CDM/CDM.pdf)]
+   [[R](CDM/CDM.r)] [[Python](CDM/CDM.py)] [[Manual](CDM/CDM.pdf)]
 
    The "Cross-Data-Matrix (CDM) Methodology" gives estimators of the eigenvalues, eigenvectors, and principal component scores.
 
@@ -44,7 +40,7 @@ git clone https://github.com/Aoshima-Lab/HDLSS-Tools.git
       DOI: [[10.1016/j.jmva.2010.04.006](https://www.sciencedirect.com/science/article/pii/S0047259X10000904)]
 
 ### **[Automatic Sparse PCA](A-SPCA/)**
-   [[R-code](A-SPCA/ASPCA.r)] [[Manual](A-SPCA/ASPCA.pdf)]
+   [[R](A-SPCA/ASPCA.r)] [[Manual](A-SPCA/ASPCA.pdf)]
 
    The "Automatic Sparse PCA (A-SPCA)" gives estimators of the eigenvalues and eigenvectors.
 
@@ -53,7 +49,7 @@ git clone https://github.com/Aoshima-Lab/HDLSS-Tools.git
 
 ## Correlation Test
 ### **[Extended Cross-Data-Matrix Methodology](ECDM/)**
-   [[R-code](ECDM/ECDM.r)] [[Manual](ECDM/ECDM.pdf)]
+   [[R](ECDM/ECDM.r)] [[Manual](ECDM/ECDM.pdf)]
 
    The "Extended Cross-Data-Matrix (ECDM) Methodology" gives an estimator of $\mathrm{Tr}(\Sigma^2)$, where $\Sigma$ is a  covariance matrix. This code tests the correlation coefficient matrix by the ECDM estimator.
 
@@ -66,7 +62,7 @@ git clone https://github.com/Aoshima-Lab/HDLSS-Tools.git
 
 # License
 ```
-Copyright (C) <2023> <Makoto Aoshima>
+Copyright (C) <2024> <Makoto Aoshima>
 
 This work is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International license.
 To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-nd/4.0/ or
