@@ -1,5 +1,6 @@
 # Tools for HDLSS data <!-- omit in toc -->
-We have published [**[Tools](#tools)**] for analytical methods developed in our laboratory for **High-Dimension, Low-Sample-Size (HDLSS) data**. Please read [**[License](#license)**] and use tools only if you agree. For more details on the analytical method, please refer to relevant manuals and papers.
+Our laboratory provides [**[Tools](#tools)**] for **high-dimension, low-sample-size (HDLSS) data**.
+ Please read [**[License](#license)**] and use tools only if you agree. For more details on the analytical method, please refer to relevant manuals and papers.
 
 # Contents <!-- omit in toc -->
 - [Package Installation](#package-installation)
