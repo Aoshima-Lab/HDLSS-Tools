@@ -1,5 +1,5 @@
 # **Automatic Sparse PCA**<!-- omit in toc -->
-   [[R-code](ASPCA.r)] [[Manual](ASPCA.pdf)]
+   [[R-code](ASPCA.r)] [[Python](ASPCA.py)] [[Manual](ASPCA.pdf)]
 
    The "Automatic Sparse PCA (A-SPCA)" gives estimators of the eigenvalues, eigenvectors and
    PC scores for the centroid data sets.
@@ -11,7 +11,7 @@
 
 ### Contents<!-- omit in toc -->
 - [A-SPCA](#a-spca)
-- [The shrinkage PC direction h\_{j\\omega} given by (5.2), the shrinkage PC scores given by (5.3) and k\_{j\\omega} given by (5.1) in the reference](#the-shrinkage-pc-direction-h_jomega-given-by-52-the-shrinkage-pc-scores-given-by-53-and-k_jomega-given-by-51-in-the-reference)
+- [The shrinkage PC direction h\_{j\\omega}, the shrinkage PC scores and k\_{j\\omega}](#the-shrinkage-pc-direction-h_jomega-the-shrinkage-pc-scores-and-k_jomega)
 
 
 ### A-SPCA
@@ -29,7 +29,7 @@
 #   x_1-\bar{x}, ..., x_n-\bar{x}, by A-SPCA.
 ```
 
-### The shrinkage PC direction h_{j\omega} given by (5.2), the shrinkage PC scores given by (5.3) and k_{j\omega} given by (5.1) in the reference
+### The shrinkage PC direction h_{j\omega}, the shrinkage PC scores and k_{j\omega}
 #### Input<!-- omit in toc -->
 ```{r} 
 # SHPC(X, r, om = NULL); d (≥ 2) by n (≥ 4) matrix X as X = (x1, ..., xn),

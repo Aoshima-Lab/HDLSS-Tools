@@ -41,7 +41,7 @@ git clone https://github.com/Aoshima-Lab/HDLSS-Tools.git
       DOI: [[10.1016/j.jmva.2010.04.006](https://www.sciencedirect.com/science/article/pii/S0047259X10000904)]
 
 ### **[Automatic Sparse PCA](A-SPCA/)**
-   [[R](A-SPCA/ASPCA.r)] [[Manual](A-SPCA/ASPCA.pdf)]
+   [[R](A-SPCA/ASPCA.r)] [[Python](A-SPCA/ASPCA.py)] [[Manual](A-SPCA/ASPCA.pdf)]
 
    The "Automatic Sparse PCA (A-SPCA)" gives estimators of the eigenvalues and eigenvectors.
 
