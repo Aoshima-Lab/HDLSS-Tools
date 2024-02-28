@@ -50,7 +50,7 @@ git clone https://github.com/Aoshima-Lab/HDLSS-Tools.git
 
 ## Correlation Test
 ### **[Extended Cross-Data-Matrix Methodology](ECDM/)**
-   [[R](ECDM/ECDM.r)] [[Manual](ECDM/ECDM.pdf)]
+   [[R](ECDM/ECDM.r)] [[Python](ECDM/ECDM.py)] [[Manual](ECDM/ECDM.pdf)]
 
    The "Extended Cross-Data-Matrix (ECDM) Methodology" gives an estimator of $\mathrm{Tr}(\Sigma^2)$, where $\Sigma$ is a  covariance matrix. This code tests the correlation coefficient matrix by the ECDM estimator.
 
