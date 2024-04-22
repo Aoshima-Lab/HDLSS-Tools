@@ -65,8 +65,8 @@ git clone https://github.com/Aoshima-Lab/HDLSS-Tools.git
 ```
 Copyright (C) <2024> <Makoto Aoshima>
 
-This work is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International license.
-To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-nd/4.0/ or
+This work is licensed under the Creative Commons Attribution-NoDerivatives 4.0 International license.
+To view a copy of this license, visit https://creativecommons.org/licenses/by-nd/4.0/ or
 send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
 
 Makoto Aoshima, University of Tsukuba
