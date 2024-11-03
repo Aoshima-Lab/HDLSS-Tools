@@ -11,6 +11,8 @@ Our laboratory provides [**[Tools](#tools)**] for **high-dimension, low-sample-s
     - [**Automatic Sparse PCA**](#automatic-sparse-pca)
   - [Correlation Test](#correlation-test)
     - [**Extended Cross-Data-Matrix Methodology**](#extended-cross-data-matrix-methodology)
+  - [Outlier Detection](#outlier-detection)
+    - [**PC-scores-based Outlier Detection**](#pc-scores-based-outlier-detection)
   - [Clustering](#clustering)
   - [Covariance Structures Test](#covariance-structures-test)
 - [License](#license)
@@ -56,6 +58,16 @@ git clone https://github.com/Aoshima-Lab/HDLSS-Tools.git
 
    >   Reference : K. Yata, M. Aoshima, High-Dimensional Inference on Covariance Structures via the Extended Cross-Data-Matrix Methodology, Journal of Multivariate Analysis, 151 (2016) 151-166.  
       DOI: [[10.1016/j.jmva.2016.07.011](https://www.sciencedirect.com/science/article/pii/S0047259X16300550)]
+
+## Outlier Detection
+### **[PC-scores-based Outlier Detection](PC-OD/)**
+   [[R](PC-OD/PC_OD.r)] [[Python](PC-OD/PC_OD.py)] [[Manual](PC-OD/PC_OD.pdf)]
+
+   The "PC-scores-based Outlier Detection (PC-OD)" identifies outliers based on the PC scores. The algorithm is provided in section 3.2 of Nakayama et al. (2024).
+
+   >   Reference : Y. Nakayama, K. Yata and M. Aoshima, Test for High-Dimensional Outliers with Principal Component Analysis, Japanese Journal of Statistics and Data Science (2024) (in print).  
+    DOI : [[10.1007/s42081-024-00255-0](https://link.springer.com/article/10.1007/s42081-024-00255-0)]
+
 
 ## Clustering
 
