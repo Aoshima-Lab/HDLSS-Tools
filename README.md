@@ -13,6 +13,8 @@ Our laboratory provides [**[Tools](#tools)**] for **high-dimension, low-sample-s
     - [**Extended Cross-Data-Matrix Methodology**](#extended-cross-data-matrix-methodology)
   - [Outlier Detection](#outlier-detection)
     - [**PC-scores-based Outlier Detection**](#pc-scores-based-outlier-detection)
+  - [Discriminant Analysis](#discriminant-analysis)
+    - [**Distance-Based Discriminant Analysis**](#distance-based-discriminant-analysis)
   - [Clustering](#clustering)
   - [Covariance Structures Test](#covariance-structures-test)
 - [License](#license)
@@ -68,6 +70,14 @@ git clone https://github.com/Aoshima-Lab/HDLSS-Tools.git
    >   Reference : Y. Nakayama, K. Yata and M. Aoshima, Test for High-Dimensional Outliers with Principal Component Analysis, Japanese Journal of Statistics and Data Science (2024) (in print).  
     DOI : [[10.1007/s42081-024-00255-0](https://link.springer.com/article/10.1007/s42081-024-00255-0)]
 
+## Discriminant Analysis
+### **[Distance-Based Discriminant Analysis](DBDA/)**
+   [[R](DBDA/DBDA.r)] [[Python](DBDA/DBDA.py)] [[Manual](DBDA/DBDA.pdf)]
+
+   The "Distance-Based Discriminant Analysis (DBDA)" provides high-dimensional discriminant analysis for multiclass data. The algorithm is provided in Aoshima and Yata (2014).
+
+   >   Reference : M. Aoshima and K. Yata, A distance-based, misclassification rate adjusted classifier for multiclass, high-dimensional data, Annals of the Institute of Statistical Mathematics (2014).  
+    DOI : [[10.1007/s10463-013-0435-8](https://link.springer.com/article/10.1007/s10463-013-0435-8)]
 
 ## Clustering
 
