@@ -1,5 +1,5 @@
 #######################################################################################
-# INPUT: DBDA(train_X, train_y, test_X)
+# INPUT: DBDA(train_X, train_y, test_X, option)
 # train_X: p × n (=n_1+...+n_k) training data matrix where p is the dimension, k is the number of classes, n is the total sample size and n_i is the size of the i-th class in training data.
 # train_y: n dimensional vector where n is the size of training data. The order of the label vector should correspond to training data matrix.
 # test_X: p × N testing data matrix, where p is the dimension and N is the sample size of testing data.
