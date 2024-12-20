@@ -15,6 +15,7 @@ Our laboratory provides [**[Tools](#tools)**] for **high-dimension, low-sample-s
     - [**PC-scores-based Outlier Detection**](#pc-scores-based-outlier-detection)
   - [Discriminant Analysis](#discriminant-analysis)
     - [**Distance-Based Discriminant Analysis**](#distance-based-discriminant-analysis)
+    - [**Geometrical quadratic discriminant analysis**](#geometrical-quadratic-discriminant-analysis)
   - [Clustering](#clustering)
   - [Covariance Structures Test](#covariance-structures-test)
 - [License](#license)
@@ -78,6 +79,13 @@ git clone https://github.com/Aoshima-Lab/HDLSS-Tools.git
 
    >   Reference : M. Aoshima and K. Yata, A distance-based, misclassification rate adjusted classifier for multiclass, high-dimensional data, Annals of the Institute of Statistical Mathematics (2014).  
     DOI : [[10.1007/s10463-013-0435-8](https://link.springer.com/article/10.1007/s10463-013-0435-8)]
+
+### **[Geometrical quadratic discriminant analysis](GQDA/)**
+   [[R](GQDA/GQDA.R)] [[Python](GQDA/GQDA.py)] [[Manual](GQDA/GQDA.pdf)]
+   
+   The "Geometrical quadratic discriminant analysis(GQDA)" provides high-dimensional discriminant analysis for multiclass data. The algorithm is provided in Aoshima and Yata (2015).
+   >   Reference : M. Aoshima and K. Yata, Geometric Classifier for Multiclass, High-Dimensional Data, Sequential Anal, 34, 279-294. (2015).  
+    DOI : [[10.1080/07474946.2015.1063256](https://www.tandfonline.com/doi/full/10.1080/07474946.2015.1063256)]
 
 ## Clustering
 
