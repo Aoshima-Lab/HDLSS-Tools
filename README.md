@@ -14,6 +14,7 @@ Our laboratory provides [**[Tools](#tools)**] for **high-dimension, low-sample-s
   - [Outlier Detection](#outlier-detection)
     - [**PC-scores-based Outlier Detection**](#pc-scores-based-outlier-detection)
   - [Discriminant Analysis](#discriminant-analysis)
+    - [**Bias-Corrected Support Vector Machine**](#bias-corrected-support-vector-machine)
     - [**Distance-Based Discriminant Analysis**](#distance-based-discriminant-analysis)
     - [**Geometrical quadratic discriminant analysis**](#geometrical-quadratic-discriminant-analysis)
   - [Clustering](#clustering)
@@ -72,6 +73,18 @@ git clone https://github.com/Aoshima-Lab/HDLSS-Tools.git
     DOI : [[10.1007/s42081-024-00255-0](https://link.springer.com/article/10.1007/s42081-024-00255-0)]
 
 ## Discriminant Analysis
+
+### **[Bias-Corrected Support Vector Machine](BC-SVM/)**
+   [[Python](BC-SVM/python/BC_SVM.py)] [[Manual](BC-SVM/BC_SVM.pdf)]
+
+   The "Bias-Corrected Support Vector Machine (BC-SVM)" provides bias-corrected classification for high-dimensional, low-sample-size data. The algorithm is described in the following references:
+
+   >   Reference : Y. Nakayama, K. Yata, and M. Aoshima, Support vector machine and its bias correction in high-dimension, low-sample-size settings, Journal of Statistical Planning and Inference, 191 (2017) 88–100.  
+   >   DOI: [[10.1016/j.jspi.2017.05.005](https://doi.org/10.1016/j.jspi.2017.05.005)]
+   >
+   >   Y. Nakayama, K. Yata, and M. Aoshima, Bias-corrected support vector machine with Gaussian kernel in high-dimension, low-sample-size settings, Annals of the Institute of Statistical Mathematics, 72 (2020) 1257–1286.  
+   >   DOI: [[10.1007/s10463-019-00727-1](https://link.springer.com/article/10.1007/s10463-019-00727-1)]
+
 ### **[Distance-Based Discriminant Analysis](DBDA/)**
    [[R](DBDA/DBDA.r)] [[Python](DBDA/DBDA.py)] [[Manual](DBDA/DBDA.pdf)]
 
@@ -93,7 +106,7 @@ git clone https://github.com/Aoshima-Lab/HDLSS-Tools.git
 
 # License
 ```
-Copyright (C) <2024> <Makoto Aoshima>
+Copyright (C) <2025> <Makoto Aoshima>
 
 This work is licensed under the Creative Commons Attribution-NoDerivatives 4.0 International license.
 To view a copy of this license, visit https://creativecommons.org/licenses/by-nd/4.0/ or
