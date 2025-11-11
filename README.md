@@ -17,6 +17,8 @@ Our laboratory provides [**[Tools](#tools)**] for **high-dimension, low-sample-s
     - [**Bias-Corrected Support Vector Machine**](#bias-corrected-support-vector-machine)
     - [**Distance-Based Discriminant Analysis**](#distance-based-discriminant-analysis)
     - [**Geometrical quadratic discriminant analysis**](#geometrical-quadratic-discriminant-analysis)
+  - [Data Transformation](#data-transformation)
+    - [**Data Transformation**](#data-transformation-1)
   - [Clustering](#clustering)
   - [Covariance Structures Test](#covariance-structures-test)
 - [License](#license)
@@ -100,9 +102,21 @@ git clone https://github.com/Aoshima-Lab/HDLSS-Tools.git
    >   Reference : M. Aoshima and K. Yata, Geometric Classifier for Multiclass, High-Dimensional Data, Sequential Anal, 34, 279-294. (2015).  
     DOI : [[10.1080/07474946.2015.1063256](https://www.tandfonline.com/doi/full/10.1080/07474946.2015.1063256)]
 
+## Data Transformation
+
+### **[Data Transformation](Data_transformation/)**
+[[R](Data_transformation/data_transform.R)] [[Python](Data_transformation/data_transform.py)] [[Manual](Data_transformation/data_transform.pdf)]
+
+The "Data Transformation" method provides tools for transforming high-dimensional data and estimating the spiked eigenvalues in HDLSS settings.
+The algorithm is provided in Aoshima and Yata (2018).
+
+>   Reference : M. Aoshima, K. Yata, Two-Sample Tests for High-Dimension, Strongly Spiked Eigenvalue Models, Statistica Sinica, 28 (2018), 43-62  
+    DOI: [[10.5705/ss.202016.0063](https://doi.org/10.5705/ss.202016.0063)]
+
 ## Clustering
 
 ## Covariance Structures Test
+
 
 # License
 ```
