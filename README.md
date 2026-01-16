@@ -21,8 +21,9 @@ Our laboratory provides [**[Tools](#tools)**] for **high-dimension, low-sample-s
     - [**Geometrical quadratic discriminant analysis**](#geometrical-quadratic-discriminant-analysis)
   - [Data Transformation](#data-transformation)
     - [**Data Transformation**](#data-transformation-1)
-  - [Clustering](#clustering)
   - [Covariance Structures Test](#covariance-structures-test)
+    - [**Covariance Structure Test**](#covariance-structure-test)
+  - [Clustering](#clustering)
 - [License](#license)
 
 # Package Installation
@@ -124,14 +125,21 @@ The algorithm is provided in Aoshima and Yata (2018).
 >   Reference : M. Aoshima, K. Yata, Two-Sample Tests for High-Dimension, Strongly Spiked Eigenvalue Models, Statistica Sinica, 28 (2018), 43-62  
     DOI: [[10.5705/ss.202016.0063](https://doi.org/10.5705/ss.202016.0063)]
 
-## Clustering
-
 ## Covariance Structures Test
 
+### **[Covariance Structure Test](CovarianceStructureTest/)**
+[[R](CovarianceStructureTest/CovStructureTest.R)] [[Python](CovarianceStructureTest/CovStructureTest.py)] [[Manual](CovarianceStructureTest/README.md)]
+
+The "Covariance Structure Test" module provides hypothesis tests for high-dimensional covariance structures based on the Extended Cross-Data-Matrix (ECDM) methodology.
+
+   > Reference: A. Ishii, K. Yata and M. Aoshima, Hypothesis tests for high-dimensional covariance structures, Annals of the Institute of Statistical Mathematics, 73 (2021), 599-622.  
+   DOI: [[10.1007/s10463-020-00760-5](https://link.springer.com/article/10.1007/s10463-020-00760-5)]
+
+## Clustering
 
 # License
 ```
-Copyright (C) <2025> <Makoto Aoshima>
+Copyright (C) <2026> <Makoto Aoshima>
 
 This work is licensed under the Creative Commons Attribution-NoDerivatives 4.0 International license.
 To view a copy of this license, visit https://creativecommons.org/licenses/by-nd/4.0/ or
